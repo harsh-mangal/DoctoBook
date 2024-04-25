@@ -1,13 +1,13 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import "./App.css";
+import Layout from './Layout/Layout';
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
-     <h1
-     className='text-[20px] text-blue-600'>Harsh Mangal</h1>
+    <Layout/>
     </>
   )
 }
